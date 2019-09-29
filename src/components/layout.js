@@ -11,6 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
 
+/* eslint-disable */
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

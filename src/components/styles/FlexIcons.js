@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import mq from "../lib/mq"
+import mq from "../../lib/mq"
 
 const FlexIcons = styled.div`
   display: flex;

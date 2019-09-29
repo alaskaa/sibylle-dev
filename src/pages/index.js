@@ -2,15 +2,18 @@ import React from "react"
 import Helmet from "react-helmet"
 
 import SEO from "../components/seo"
-import SiteWrapper from "../components/SiteWrapper"
-import WhiteHeadingWrapper from "../components/WhiteHeadingWrapper"
-import FlexIcons from "../components/FlexIcons"
+import SiteWrapper from "../components/styles/SiteWrapper"
+import ContentBox from "../components/styles/ContentBox"
 
-import Twitter from "../components/Twitter"
-import LinkedIn from "../components/LinkedIn"
-import GitHub from "../components/GitHub"
-import Footer from "../components/Footer"
-import ContentBox from "../components/ContentBox"
+import Speaking from "../components/Speaking/Speaking"
+import Writing from "../components/Writing/Writing"
+import Intro from "../components/Intro/Intro"
+
+import FlexIcons from "../components/styles/FlexIcons"
+import Twitter from "../components/svg/Twitter"
+import LinkedIn from "../components/svg/LinkedIn"
+import GitHub from "../components/svg/GitHub"
+import Footer from "../components/styles/Footer"
 
 const IndexPage = () => (
   <React.Fragment>
@@ -23,22 +26,9 @@ const IndexPage = () => (
     </Helmet>
     <SiteWrapper>
       <ContentBox>
-        <WhiteHeadingWrapper>Hi, I'm Sibylle</WhiteHeadingWrapper>
-        <p>Frontend Developer based in Berlin.</p>
-        <br />
-        <p>
-          Curious and always eager to learn about new and better ways to solve a
-          problem.
-        </p>
-        <p>
-          Code, Diagrams and lots of sparkling water are my tools of choice.
-        </p>
-        <p>
-          Enthusiastic about development solutions that feel intuitive and
-          provide better mental models for our abstractions.
-        </p>
-        <p>Currently really into React and GraphQL.</p>
-
+        <Intro />
+        <Speaking />
+        <Writing />
         <FlexIcons>
           <a href="https://twitter.com/s_ibylle">
             <Twitter />

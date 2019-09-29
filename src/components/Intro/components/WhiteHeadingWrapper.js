@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import mq from "../lib/mq"
+import mq from "../../../lib/mq"
 
 const WhiteHeadingWrapper = styled.h1`
   margin-top: 65px;

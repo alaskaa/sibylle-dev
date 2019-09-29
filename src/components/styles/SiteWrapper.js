@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import background from "../images/pawel-bluepink.jpg"
 
 const SiteWrapper = styled.div`
   padding: 20px;
