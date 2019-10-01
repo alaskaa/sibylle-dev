@@ -43,7 +43,7 @@ const IndexPage = () => (
       </ContentBox>
       <Footer>
         <p>Copyright Sibylle Sehl</p>
-        <p>Icons by Feather Icons</p>
+        <p>Icons by Feather Icons, S Icon by Icons8</p>
       </Footer>
     </SiteWrapper>
   </React.Fragment>
