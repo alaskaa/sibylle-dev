@@ -42,7 +42,7 @@ const IndexPage = () => (
         </FlexIcons>
       </ContentBox>
       <Footer>
-        <p>Copyright Sibylle Sehl</p>
+        <p>Copyright Sibylle Lancaster</p>
         <p>Icons by Feather Icons, S Icon by Icons8</p>
       </Footer>
     </SiteWrapper>
