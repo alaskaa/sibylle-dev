@@ -17,7 +17,7 @@ import Footer from "../components/styles/Footer"
 
 const IndexPage = () => (
   <React.Fragment>
-    <SEO title="Sibylle Sehl" />
+    <SEO title="Sibylle Lancaster" />
     <Helmet>
       <link
         href="https://fonts.googleapis.com/css?family=Vidaloka|Raleway&display=swap"
@@ -27,8 +27,8 @@ const IndexPage = () => (
     <SiteWrapper>
       <ContentBox>
         <Intro />
-        <Speaking />
         <Writing />
+        <Speaking />
         <FlexIcons>
           <a href="https://twitter.com/s_ibylle">
             <Twitter />

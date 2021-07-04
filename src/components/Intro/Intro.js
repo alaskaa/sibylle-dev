@@ -5,7 +5,7 @@ import IntroWrapper from "./components/IntroWrapper"
 const Intro = () => (
   <IntroWrapper>
     <WhiteHeadingWrapper>Hi, I'm Sibylle</WhiteHeadingWrapper>
-    <p>Software Engineer based in Berlin.</p>
+    <p>Software Engineer based in Berlin. Co-Author/Translator of React Deep Dive.</p>
     <br />
     <p>
       Curious and always eager to learn about new and better ways to solve a

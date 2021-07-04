@@ -6,6 +6,11 @@ const Writing = () => (
     <h3>Writing</h3>
     <GridWrapper>
       <p>
+        <a href="https://learn.react-js.dev/" target="_blank"
+          rel="noopener noreferrer">React Deep Dive (Co-Authorship/ Translation)</a>
+      </p>
+      <p>06/2020</p>  
+      <p>
         <a
           href="https://medium.com/javascript-deep-dive/ydkjs-scope-and-closures-cf1f65ac831d"
           target="_blank"
